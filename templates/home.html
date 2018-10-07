@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+	<br>
+  	<h1 style="text-align:center">URL Shortner</h1>      
+  	<p style="margin:20px; text-align:center">URL Shortner is a service that not only helps in shortening the Url but it also allows the user to copy the shortened Url which is easier to share.</p>
+  	<br><br>
+</div>
+<div class="container-fluid text-center">
+		<div class="how">
+			<h1>How it works</h1>
+			<hr>
+		</div>
+</div>
+<div class="container-fluid">
+		<div class="col-md-4 text-center">
+			<div class="icon-how">
+				<img src="../static/account.png" width="120" height="120" alt="sign up">
+				<div class="text-how">
+					Create account
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 text-center">
+			<div class="icon-how">
+				<img src="../static/link.png" width="120" height="120" alt="short url">
+				<div class="text-how">
+					Short url
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 text-center">
+			<div class="icon-how">
+				<img src="../static/share.png" width="120" height="120" alt="share link">
+				<div class="text-how">
+					Share
+				</div>
+			</div>
+		</div>
+</div>
+{% endblock %}
